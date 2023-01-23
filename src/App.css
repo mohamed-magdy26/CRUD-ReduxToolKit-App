@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ddd;
+}
+
+.App {
+  padding: 50px;
+}
+
+input,
+button {
+  font-family: inherit;
+  letter-spacing: 1.5px;
+  border-radius: 5px;
+  border: none;
+  margin: 5px;
+  font-size: 20px;
+  background-color: #222;
+  color: #fafafa;
+}
+
+button:active {
+  transform: scale(0.98);
+}
+input {
+  padding: 10px;
+}
+input:focus,
+button:focus {
+  outline: none;
+}
+
+button {
+  padding: 5px 15px;
+  cursor: pointer;
+}
+.posts {
+  padding: 10px 5px;
+}
+.post {
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 10px 20px;
+  border: 1px solid #aaa;
+}
